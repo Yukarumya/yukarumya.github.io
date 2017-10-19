@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*ちんちん*/
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    color: #333;
+    font-family: Meiryo,"ＭＳ ゴシック";
+    font-size: 0.9em;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+/*---------------*/
+
+/*へぇﾞっだぁー*/
+header {
+    height: 70px;
+    width: 750px;
+    margin: 10px auto 10px auto;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+}
+
+
+/*まいん*/
+
