@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.4;
-    color: #DFDFDF;
+    color: #696969;
     background-image: url(../img/back.png);
     background-repeat: repeat;
     font-family: Meiryo,"ＭＳ ゴシック";
@@ -18,6 +18,7 @@ p {
 /*---------------*/
 
 /*へぇﾞっだぁー*/
+
 header {
     height: 70px;
     margin: 0 auto 10px auto;
@@ -38,10 +39,38 @@ header h1 {
     position: relative;
 }
 
+/*へっだー なびがーしょん*/
+nav {
+    position: absolute;
+    right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    background-color: #3F1D3F;
+}
+
+nav ul li a:hover {
+    background-color:#FED6FF;
+    color:#000000;
+}
 
 /*まいん*/
 
 #primary {
     width: 750px;
     margin: 0 auto 0 auto;
+    background-color: #ffffff;
+}
+
+#primary main h1{
+    font-size: 1.5em;
 }
