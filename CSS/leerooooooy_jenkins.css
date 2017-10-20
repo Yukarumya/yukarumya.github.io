@@ -5,7 +5,9 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.4;
-    color: #333;
+    color: #DFDFDF;
+    background-image: url(../img/back.png);
+    background-repeat: repeat;
     font-family: Meiryo,"ＭＳ ゴシック";
     font-size: 0.9em;
 }
@@ -18,16 +20,28 @@ p {
 /*へぇﾞっだぁー*/
 header {
     height: 70px;
-    width: 750px;
-    margin: 10px auto 10px auto;
+    margin: 0 auto 10px auto;
+    background-image: url(../img/head.png);
+    background-repeat: repeat;
     position: relative;
 }
 
 header h1 {
-    margin: 0;
+    margin: 0 auto 0 auto;
     position: absolute;
+    color: #BBB8B8;
+}
+
+#header-inner {
+    width: 750px;
+    margin: 0 auto 0 auto;
+    position: relative;
 }
 
 
 /*まいん*/
 
+#primary {
+    width: 750px;
+    margin: 0 auto 0 auto;
+}
