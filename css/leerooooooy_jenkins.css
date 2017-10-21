@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-    margin: 5px auto 0 auto;
+    margin: 13px auto 0 auto;
     position: absolute;
     color: #BBB8B8;
 }
@@ -48,6 +48,7 @@ nav {
 nav ul {
     list-style-type: none;
     overflow: hidden;
+    margin: 25px auto 0 auto;
 }
 
 nav ul li {
@@ -63,6 +64,20 @@ nav ul li a:hover {
     background-color:#FED6FF;
     color:#000000;
     text-decoration: none;
+}
+
+/*りんく*/
+a:link {
+    color:#696969; text-decoration:none
+}
+a:visited {
+    color:#696969; text-decoration:none
+}
+a:hover {
+    color:#000000; text-decoration:none
+}
+a:active {
+    color:#696969; text-decoration:none
 }
 
 /*まいん*/
@@ -85,10 +100,26 @@ nav ul li a:hover {
     font-size: 14pt;
 }
 
+#primary main a:link {
+    color:#dd00ff; text-decoration:none
+}
+#primary main a:visited {
+    color:#ba3bce; text-decoration:none
+}
+#primary main a:hover {
+    color:#5900ff; text-decoration:none
+}
+#primary main a:active {
+    color:#c05ace; text-decoration:none
+}
+
+
 #primary main twitter {
     width: 720;
     margin: 0;
 }
+
+
 
 img {
     border: 0;
