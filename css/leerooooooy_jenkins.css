@@ -171,6 +171,10 @@ img.float_right_size{
         background-color: #ffffff;
     }
     
+    #primary main h1 {
+        border-bottom:3px solid #ba3bce;
+    }
+
     #primary main {
         width:98%;
         margin:20px auto 20px auto;
