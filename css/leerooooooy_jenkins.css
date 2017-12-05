@@ -140,6 +140,15 @@ img.float_right_size{
     height: 90px;
 }
 
+img.float_left_size{
+	margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 6px;
+    float:left;
+    width: 90px;
+    height: 90px;
+}
+
 
 
 /*すまほ*/
