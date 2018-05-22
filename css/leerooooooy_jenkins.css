@@ -126,11 +126,11 @@ a:active {
 }
 
 #primary update{
-    text-align: right;
+    text-align: left;
     font-size: 8pt;
     color: #976da1de;
 
-
+}
 img {
     border: 0;
 }
